@@ -1,16 +1,14 @@
-# Casper
+# Casper - Disqus
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+This theme is a copy of the [default theme for Ghost](http://github.com/tryghost/ghost/) and adds [Disqus comments](https://www.disqus.com) to it. To be specific this theme adds
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+  1. comments to the end of each article page and
+  2. a link to the article comments of each article that includes the number of comments to the index page.
 
-## Copyright & License
+## Download
 
-Copyright (c) 2013-2015 Ghost Foundation - Released under the MIT License.
+To download, visit the [releases](https://github.com/baschtl/ghost-casper_disqus/releases) page. The release versions of this theme map to the ones of the original Casper theme.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+## Usage
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Look for the line `var disqus_shortname  = 'YOUR_DISQUS_SHORTNAME';` in `partials/comment.hbs` and `partials/comment_count.hbs` and replace `YOUR_DISQUS_SHORTNAME` with your actual Disqus shortname.
