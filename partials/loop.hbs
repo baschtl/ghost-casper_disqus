@@ -17,6 +17,8 @@
         {{author}}
         {{tags prefix=" on "}}
         <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+        {{! Disqus comment link}}
+        <a class="post-comments" href="{{url}}#disqus_thread">Comments</a>
     </footer>
 </article>
 {{/foreach}}
