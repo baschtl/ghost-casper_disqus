@@ -74,8 +74,10 @@
 
         </footer>
 
-        {{> comments}}
-
+        {{! Avoid loading Disqus when post has not been published as it generates a wrong url. }}
+        {{#if published_at}}
+            {{> comments}}
+        {{/if}}
     </article>
 </main>
 
