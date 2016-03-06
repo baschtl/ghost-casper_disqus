@@ -11,4 +11,4 @@ To download, visit the [releases](https://github.com/baschtl/ghost-casper_disqus
 
 ## Usage
 
-Look for the line `var disqus_shortname  = 'YOUR_DISQUS_SHORTNAME';` in `partials/comment.hbs` and `partials/comment_count.hbs` and replace `YOUR_DISQUS_SHORTNAME` with your actual Disqus shortname.
+Look for the line `var shortname  = 'YOUR_DISQUS_SHORTNAME';` in `partials/comment.hbs` and `YOUR_DISQUS_SHORTNAME` in `partials/comment_count.hbs` and replace `YOUR_DISQUS_SHORTNAME` with your actual Disqus shortname.
